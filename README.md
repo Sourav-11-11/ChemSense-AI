@@ -5,7 +5,7 @@ An AI-driven industrial monitoring system for anomaly detection and fault predic
 This repository contains an end-to-end Machine Learning pipeline that analyzes real-time sensor data from a chemical process (reactors, pumps, heat exchangers). It automatically detects invisible anomalies using unsupervised learning (Isolation Forest) and predicts the exact mechanical fault occurring using supervised models (XGBoost & Random Forest) before a catastrophic failure happens.
 
 ## Project Structure
-- `data/`: Contains raw and cleaned CSV datasets.
+- `data/`: Contains raw and cleaned CSV datasets. **Note:** Large data files are ignored by git. Please download the dataset from [Kaggle Dataset Link Here] and place it in this folder.
 - `models/`: Stores the trained `.pkl` models (Isolation Forest, Random Forest, XGBoost).
 - `outputs/`: Generated visualizations and graphs like confusion matrices and feature importance.
 - `src/`: Core Python modules for data cleaning, EDA, anomaly detection, and fault prediction.
